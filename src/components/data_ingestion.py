@@ -103,6 +103,3 @@ if __name__ =="__main__":
     print("For Viscosity Prediction the Best Models are : ")
     print(name_vis,end=" ")
     print(score_vis)
-
-
-    
