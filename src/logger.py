@@ -17,8 +17,3 @@ logging.basicConfig(
 
 if __name__=="__main__":
     logging.info("Checking for execption handling")
-    try:
-        a = 1/0
-
-    except Exception as e:
-        raise CustomException("divide by zero",e)

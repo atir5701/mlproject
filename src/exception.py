@@ -1,6 +1,5 @@
 import sys
-import logger 
-import logging
+from src.logger import logging
 
 def error_message_func(error,error_details:sys):
     a,b,exc_tb=error_details.exc_info()
@@ -25,6 +24,6 @@ if __name__=="__main__":
     logging.info("Checking for execption handling")
     try:
         a = 1/0
-
     except Exception as e:
+        logging.info("Divide by zero occur")
         raise CustomException(e,sys)

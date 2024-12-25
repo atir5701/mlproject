@@ -1,0 +1,4 @@
+[ 2024-12-24 21:10:46,994] 36 root - INFO - Data Ingestion Component entered
+[ 2024-12-24 21:10:47,010] 39 root - INFO - Data Loaded Successfully
+[ 2024-12-24 21:10:47,035] 51 root - INFO - Density Ingestion done successfully
+[ 2024-12-24 21:10:47,059] 59 root - INFO - Viscosity Ingestion done successfully
