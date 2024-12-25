@@ -1,0 +1,3 @@
+[ 2024-12-25 15:50:30,094] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-12-25 15:50:30,108] 97 werkzeug - INFO -  * Debugger PIN: 294-799-435
+[ 2024-12-25 15:50:36,821] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2024 15:50:36] "POST /predictionViscosity HTTP/1.1" 200 -

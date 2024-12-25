@@ -1,0 +1,18 @@
+[ 2024-12-25 14:02:41,020] 47 root - INFO - Data Ingestion Component entered
+[ 2024-12-25 14:02:41,049] 50 root - INFO - Data Loaded Successfully
+[ 2024-12-25 14:02:41,094] 68 root - INFO - Density Ingestion done successfully
+[ 2024-12-25 14:02:41,131] 76 root - INFO - Viscosity Ingestion done successfully
+[ 2024-12-25 14:02:41,171] 83 root - INFO - Train and Test Data loaded
+[ 2024-12-25 14:02:41,171] 51 root - INFO - Data Preprocessing Pipeline for Density created.
+[ 2024-12-25 14:02:41,171] 87 root - INFO - Preprocessing pipeline obtained for Density
+[ 2024-12-25 14:02:41,171] 97 root - INFO - Applying Preprocessing on Density data.
+[ 2024-12-25 14:02:41,205] 110 root - INFO - Save the preprocessing object of Density.
+[ 2024-12-25 14:02:41,268] 127 root - INFO - Train and Test Data loaded
+[ 2024-12-25 14:02:41,269] 72 root - INFO - Data Preprocessing Pipeline for Viscosity created.
+[ 2024-12-25 14:02:41,269] 131 root - INFO - Preprocessing pipeline obtained for Viscosity
+[ 2024-12-25 14:02:41,269] 141 root - INFO - Applying Preprocessing on Viscosity data.
+[ 2024-12-25 14:02:41,304] 154 root - INFO - Save the preprocessing object of Viscosity.
+[ 2024-12-25 14:02:41,306] 55 root - INFO - Entered the training for density Model.
+[ 2024-12-25 14:02:45,097] 79 root - INFO - Best Model obtained for density
+[ 2024-12-25 14:02:45,109] 92 root - INFO - Entered the training for viscosity Model.
+[ 2024-12-25 14:02:51,123] 117 root - INFO - Best Model obtained for viscosity

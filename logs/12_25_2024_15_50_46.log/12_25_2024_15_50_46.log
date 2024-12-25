@@ -1,0 +1,6 @@
+[ 2024-12-25 15:50:46,457] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-12-25 15:50:46,475] 97 werkzeug - INFO -  * Debugger PIN: 294-799-435
+[ 2024-12-25 15:50:49,404] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2024 15:50:49] "POST /predictionViscosity HTTP/1.1" 200 -
+[ 2024-12-25 15:50:53,133] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2024 15:50:53] "POST /predictionViscosity HTTP/1.1" 200 -
+[ 2024-12-25 15:51:25,158] 97 werkzeug - INFO - 127.0.0.1 - - [25/Dec/2024 15:51:25] "POST /predictionViscosity HTTP/1.1" 200 -
+[ 2024-12-25 15:51:33,954] 97 werkzeug - INFO -  * Detected change in 'd:\\projects\\mlproject\\src\\pipeline\\predict_pipeline.py', reloading
