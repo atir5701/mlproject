@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App with Navbar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/predictionDenstiy">Density Prediction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/predictionViscosity">Viscosity Prediction</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1>Welcome To Density Prediction </h1>
+
+<div class="container">
+    <h2 class="mt-5">Enter Feature Values</h2>
+    <form method="POST" action="{{url_for('densityPrediction') }}">
+        <div class="form-group">
+            <label for="MR">MR:</label>
+            <input type="text" class="form-control" id="MR" name="MR"  required>
+        </div>
+
+        <div class="form-group">
+            <label for="T_K">T/K:</label>
+            <input type="text" class="form-control" id="tk" name="tk"  required>
+        </div>
+
+        <div class="form-group">
+            <label for="MCI">MCI:</label>
+            <input type="text" class="form-control" id="MCI" name="MCI"required>
+        </div>
+
+        <div class="form-group">
+            <label for="omega_m">ωm:</label>
+            <input type="text" class="form-control" id="wm" name="wm" required>
+        </div>
+
+        <div class="form-group">
+            <label for="MW">MW:</label>
+            <input type="text" class="form-control" id="MW" name="MW"  required>
+        </div>
+
+        <button type="submit" class="btn btn-primary"  value="Predict Density">Predict Density</button>
+    </form>
+
+    {% if result %}
+    <h3 class="mt-5">Result: {{ result }}</h3>
+    {% endif %}
+</div>
+</body>
+</html>
