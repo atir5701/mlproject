@@ -6,9 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomDataDen,PredictPipelineDen
 from src.pipeline.predict_pipeline import CustomDataVis,PredictPipelineVis
 
-application = Flask(__name__)
-
-app = application
+app = Flask(__name__)
 
 ## Route for a home page
 
@@ -59,4 +57,4 @@ def viscosityPrediction():
 
 
 if __name__ == '__main__':
-    app.run(port=8080,host="0.0.0.0")
+    app.run()
